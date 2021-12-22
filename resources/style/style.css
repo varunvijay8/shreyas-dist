@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    background-color: white;
+}
+
+body {
+    height: 100%;
+
+    margin: 0 0;
+    display: block;
+}
+
+.banner {
+
+    margin: 0 1rem;
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+    height: 4rem;
+    background-color: rgb(231, 228, 228);   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+}
+
+.banner a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navigation li {
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+/* Style The Dropdown Button */
+.banner .dropbtn {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: inherit;
+}
+
+.dropbtn {
+    background-color: rgb(71, 66, 66);
+    color: white;
+    /* padding: 16px;
+    font-size: 16px; */
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.main {
+
+    margin: 0 1rem;
+    margin-top: 0.5rem;
+
+    background: linear-gradient(0deg, rgba(123, 125, 126, 0.3), rgba(94, 114, 113, 0.3)), url(../images/PHOTO-2020-10-02-23-05-51.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /* height: 900px; */
+    height: 100%;
+
+}
